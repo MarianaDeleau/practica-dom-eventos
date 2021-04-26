@@ -132,28 +132,6 @@
 // div2[0].style.width=progresoPorcentaje;
 
 
-
-
-//--------------------------------------------------------------------
-
-//EJERCICIO 9 DOM
-
-// animales
-// En un documento html agregar al menos tres imágenes de distintos animales, una por cada animal. Hacer un programa que al iniciarse pregunte mediante un prompt por un animal (indicando en el mensaje las opciones disponibles) y muestre solamente la imagen del animal elegido.
-
-// const animal = prompt("Ingrese la imagen gato, perro o loro");
-// const imagen = document.querySelector('img');
-// if(animal=='gato'){
-//         imagen.src="https://ichef.bbci.co.uk/news/640/cpsprodpb/10E9B/production/_109757296_gettyimages-1128004359.jpg";
-//     } else if(animal=='perro') {
-//         imagen.src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg";
-//     } else if(animal=='loro') {
-//         imagen.src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Scarlet_Macaw_and_Blue-and-gold_Macaw.jpg";
-//     }
-
-
-
-
 //EJERCICIO 7 DOM
 
 // reacciones
@@ -183,7 +161,6 @@
 // valorLike4.innerHTML=like4;
 
 
-
 //EJERCICIO 8 DOM
 
 // card
@@ -205,6 +182,45 @@
 // cambiarle la tipografía
 // cambiarle los tamaños de fuente
 // cambiarle los colores por defecto
+
+// const title = prompt('Ingrese título');
+// const movieTitle=document.querySelector('h2');
+// movieTitle.innerText=title;
+// const image = prompt('Ingrese link imagen');
+// const movieImage=document.querySelector('img');
+// movieImage.src=image;
+// const review = prompt('Ingrese link artículo');
+// const movieReview=document.querySelector('a');
+// movieReview.setAttribute('href',review);
+
+// //movieReview.href=review;
+
+
+//http://play.dibox.com.ar/content/img/8529849.jpg
+//https://www.imdb.com/title/tt0102685/reviews
+
+
+//EJERCICIO 9 DOM
+
+// animales
+// En un documento html agregar al menos tres imágenes de distintos animales, una por cada animal. Hacer un programa que al iniciarse pregunte mediante un prompt por un animal (indicando en el mensaje las opciones disponibles) y muestre solamente la imagen del animal elegido.
+
+// const animal = prompt("Ingrese la imagen gato, perro o loro");
+// const imagen = document.querySelector('img');
+// if(animal=='gato'){
+//         imagen.src="https://ichef.bbci.co.uk/news/640/cpsprodpb/10E9B/production/_109757296_gettyimages-1128004359.jpg";
+//     } else if(animal=='perro') {
+//         imagen.src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg";
+//     } else if(animal=='loro') {
+//         imagen.src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Scarlet_Macaw_and_Blue-and-gold_Macaw.jpg";
+//     }
+
+
+
+
+
+
+
 
 
 
