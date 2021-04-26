@@ -46,7 +46,9 @@
 // mediana	500px
 // grande	800px
 
-//VERSION MARIANA
+//VERSION MARIANA------
+
+
 // const ingreso = prompt('Ingrese tamaño imagen: chica, mediana, grande');
 // const bandera=document.querySelector('img');
 // if(ingreso=='chica'){
@@ -58,7 +60,9 @@
 // }
 
 
-//VERSION LOLA
+//VERSION LOLA-------
+
+
 // const img = prompt("Ingrese el tamaño de la imagen chica, mediana o grande");
 // const tamanioImg= document.querySelector('#size-img');
 // let size = ""
@@ -79,6 +83,7 @@
 //     console.log(size)
 // }
 // sizeSelect
+
 
 //EJERCICIO 5 DOM
 
@@ -127,46 +132,6 @@
 // div2[0].style.width=progresoPorcentaje;
 
 
-//--------------------------------------------------------------------
-
-// BOTON EJERCICIOS CLASE- MATIAS
-// <button id="boton">
-//       Soy un boton
-//     </button>
-//     <script>
-//       const boton = document.getElementById('boton');
-//    //   const saludar = () => {console.log("hola") }
-//       boton.addEventListener("click",()=>{
-//         console.log("hola,funcion anonima");
-//       })
-//     </script>
-
-
-// <button id="boton">
-//       Soy un boton
-//     </button>
-//     <script>
-//       const boton = document.getElementById('boton');
-//       const saludar = () => {console.log("hola") }
-//       console.log(saludar);
-//       boton.addEventListener("click",saludar)
-//     </script>
-
-
-{/* <h1 id="contador">0</h1>
-    <button id="boton">
-      Soy un boton
-    </button>
-    <script>
-      const boton = document.getElementById('boton');
-      const contador = document.getElementById('contador');
-
-      boton.addEventListener("click",()=>{
-        
-      })
-    </script> */}
-
-
 
 
 //--------------------------------------------------------------------
@@ -204,6 +169,20 @@
 // Hacer un programa que al iniciarse pregunte mediante tres prompts por la cantidad de cada una de las reacciones y actualice los valores de los spans correspondientes
 
 
+// const like1 = prompt('Ingrese cantidad');
+// const valorLike1=document.getElementById('likes1');
+// valorLike1.innerHTML=like1;
+// const like2 = prompt('Ingrese cantidad');
+// const valorLike2=document.getElementById('likes2');
+// valorLike2.innerHTML=like2;
+// const like3 = prompt('Ingrese cantidad');
+// const valorLike3=document.getElementById('likes3');
+// valorLike3.innerHTML=like3;
+// const like4 = prompt('Ingrese cantidad');
+// const valorLike4=document.getElementById('likes4');
+// valorLike4.innerHTML=like4;
+
+
 
 //EJERCICIO 8 DOM
 
@@ -229,7 +208,6 @@
 
 
 
-
 //EJERCICIO 10 DOM
 
 // paises
@@ -247,10 +225,7 @@
 // busqueda
 // En un documento html crear una lista desordenada con al menos 10 items que consistan en oraciones, frases o citas. Hacer un programa que al iniciarse pregunte mediante un prompt por una palabra y destaque en rojo y en negrita aquellos items de la lista cuyo texto contenga dicha palabra.
 
-
-
-
-//RESOLUCION MATIAS
+//resolucion MATIAS
 
 // //En un documento `html` crear una lista desordenada con al menos 10 items que consistan en oraciones, frases o citas. Hacer un programa que al iniciarse pregunte mediante un `prompt` por una palabra y destaque en rojo y en negrita aquellos items de la lista cuyo texto contenga dicha palabra.
 
@@ -303,82 +278,42 @@ for(let i = 0; i < text.length; i++){
 
 
 
-//   playlist
-// Crear un documento html con un título que diga Mis canciones favoritas y una lista desordenada. Pedir mediante prompts por cinco canciones (una a la vez), y agregar esas canciones como ítems de la lista desordenada
 
-// const cancion1=prompt('Ingrese una canción');
-// const lista = document.getElementsByTagName('ul');
-// lista[0].innerHTML=`<li> ${cancion1} </li>`;
+//--------------------------------------------------------------------
 
-
-// const cancion1=prompt('Ingrese una canción');
-// const lista = document.querySelector('ul');
-// lista.innerHTML=`<li> ${cancion1} </li>`;
-
-
-// const lista = document.querySelector('ul');
-// let items = "";
-// for(let i=0; i<5; i++) {
-
-//   const cancion=prompt('Ingrese una canción');
-//   items + =`<li> ${cancion} </li>`;
-// }
-
-// lista.innerHTML=items;
+// BOTON EJERCICIOS CLASE- MATIAS
+// <button id="boton">
+//       Soy un boton
+//     </button>
+//     <script>
+//       const boton = document.getElementById('boton');
+//    //   const saludar = () => {console.log("hola") }
+//       boton.addEventListener("click",()=>{
+//         console.log("hola,funcion anonima");
+//       })
+//     </script>
 
 
-// Kilómetros a Millas
-// Crear una página que:
-
-// Tenga dos inputs, uno para el valor de kilómetros y otro para el de millas.
-// Cuando se modifica alguno de los dos inputs, el otro cambie automáticamente, realizando la conversión adecuada. Tener en cuenta que ki´lómetro es 0.62 millas, y una milla es 1.61 kilómetros.
-
-
-  
-
-
-// const calculo=(event)=>{
-//   let kilometros=document.getElementById('kilometros').value;
-//   let millas=document.getElementById('millas').value;
-
-//   if(event.target.name==='kilometros'){
-
-//     console.log(kilometros*1.61);
-
-//   }  else if (event.target.name==='millas'){
-
-//     console.log(millas*0.62);
-
-//   } 
-// };
-
-// kilometros.addEventListener('change',calculo);
-// millas.addEventListener('change',calculo);
-
-// let k=kilometros;
-// let m=millas; 
-
-// document.getElementById(kilometros=k);
-// document.getElementById(millas=m);
+// <button id="boton">
+//       Soy un boton
+//     </button>
+//     <script>
+//       const boton = document.getElementById('boton');
+//       const saludar = () => {console.log("hola") }
+//       console.log(saludar);
+//       boton.addEventListener("click",saludar)
+//     </script>
 
 
-const calculo=(event)=>{
-  let kilometros=document.getElementById('kilometros').value;
-  let millas=document.getElementById('millas').value;
+{/* <h1 id="contador">0</h1>
+    <button id="boton">
+      Soy un boton
+    </button>
+    <script>
+      const boton = document.getElementById('boton');
+      const contador = document.getElementById('contador');
 
-  if(event.target.name==='kilometros'){
-    document.getElementById('millas').value=kilometros*1.61;
-
-  }  else if (event.target.name==='millas'){
-    document.getElementById('kilometros').value=millas*0.62;
-
-  } 
-};
-
-kilometros.addEventListener('change',calculo);
-millas.addEventListener('change',calculo);
-
-
-
-
-
+      boton.addEventListener("click",()=>{
+        
+      })
+    </script> */}
