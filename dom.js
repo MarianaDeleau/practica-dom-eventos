@@ -193,7 +193,7 @@
 // const movieReview=document.querySelector('a');
 // movieReview.setAttribute('href',review);
 
-// //movieReview.href=review;
+// otra opcion //movieReview.href=review;
 
 
 //http://play.dibox.com.ar/content/img/8529849.jpg
